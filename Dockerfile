@@ -1,7 +1,7 @@
 FROM alpine:edge
 
 RUN \
-apk add
+apk add \
 	--no-cache \
 	--update \
 	abuild \
